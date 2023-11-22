@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.21)
-project(swo3) ### TODO: set project name, e.g. "project(ue01)"
+project(ue4) ### TODO: set project name, e.g. "project(ue01)"
 
 set_property(GLOBAL PROPERTY USE_FOLDERS ON) # enable virtual folders for projects if supported by the build system/IDE
 
