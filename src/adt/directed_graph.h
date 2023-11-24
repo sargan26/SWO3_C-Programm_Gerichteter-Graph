@@ -29,10 +29,13 @@ typedef struct graph
 
 graph *createGraph();
 void destroyGraph(graph *graph);
+
 void insertNode(graph *graph, char *key, char *message);
+void deleteNode(graph *graph, char *key);
+
 void insertEdge(graph *graph, char *from, char *to);
 void deleteEdge(graph *graph, char *from, char *to);
-void deleteNode(graph *graph, char *key);
+
 void printGraph(graph *graph);
 
 #endif
